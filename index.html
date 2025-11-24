@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="calculator">
+        <section class="output-container">
+            <div class="icon-wrapper">
+                <img src="icons/x-solid-full.svg" alt="">
+                <div id="theme-toggle">
+                    <img src="icons/sun-solid-full.svg" alt="" id="light">
+                    <img src="icons/moon-solid-full.svg" alt="" id="dark">
+                </div>
+                
+            </div>
+            <div class="output-wrapper">
+                <input type="text" class="output-1" id="display2" readonly>
+                <input type="text" class="output-2" id="display" readonly>
+            </div>
+        
+        </section>
+
+
+        <div class="button-container">
+            <div class="button-wrapper">
+                <button class="ac-button" id="clearbtn" onclick="clearDisplay()">AC</button>
+                <button class="txt-color" onclick="clearLastElement()">+/-</button>
+                <button class="txt-color" onclick="addToDisplay('%')">%</button>
+                <button class="txt-color" onclick="addToDisplay('/')">÷</button>
+                <button onclick="addToDisplay('7')">7</button>
+                <button onclick="addToDisplay('8')">8</button>
+                <button onclick="addToDisplay('9')">9</button>
+                <button class="txt-color" onclick="addToDisplay('*')">×</button>
+                <button onclick="addToDisplay('4')">4</button>
+                <button onclick="addToDisplay('5')">5</button>
+                <button onclick="addToDisplay('6')">6</button>
+                <button class="txt-color" onclick="addToDisplay('-')">-</button>
+                <button  onclick="addToDisplay('1')">1</button>
+                <button  onclick="addToDisplay('2')">2</button>
+                <button  onclick="addToDisplay('3')">3</button>
+                <button class="txt-color" onclick="addToDisplay('+')">+</button>
+                <button onclick="addToDisplay('0')">0</button>
+                <button onclick="addToDisplay('.')">.</button>
+                <button class="equal-button" onclick="calculateResult()">=</button>
+
+            </div>
+        </section>
+    </section>
+    
+
+    <script src="file.js"></script>
+</body>
+
+</html>

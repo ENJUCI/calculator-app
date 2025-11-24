@@ -1,0 +1,156 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+}
+
+.calculator {
+    width: 50%;
+    height: 90%;
+    /* padding: 2%; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.output-container {
+    background-color: rgb(120, 154, 255);
+    padding: 2%;
+    height: 40%;
+    border-radius: 20px 20px 0 0;
+}
+
+.dark-mode .output-container {
+    background-color: rgb(255, 110, 94);
+}
+
+.icon-wrapper {
+    height: 12%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+#light {
+    display: block;
+}
+
+#dark {
+    display: none;
+}
+
+.output-wrapper {
+    height: 80%;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: rgba(120, 154, 255, 0);
+    color: white;
+}
+
+.dark-mode input {
+    color: rgb(0, 0, 0);
+}
+
+input[type=text] {
+    text-align: right;
+}
+
+.output-1 {
+    height: 20%;
+    margin-top: 10%;
+    font-size: 1rem;
+}
+
+.output-2 {
+    height: 50%;
+    font-size: 2.5rem;
+}
+
+.button-container {
+    height: 60%;
+    width: 100%;
+    box-shadow: 1px 1px 20px rgb(224, 224, 224);
+    border-radius: 0 0 20px 20px;
+}
+
+.dark-mode .button-container {
+    box-shadow: none;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+}
+
+.dark-mode .button-wrapper {
+    background-color: rgb(0, 0, 0);
+}
+
+.ac-button {
+    background-color: rgb(120, 154, 255);
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode .ac-button {
+    background-color: rgb(255, 110, 94);
+}
+
+.equal-button {
+    width: 50%;
+    background-color: rgb(120, 154, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 0 0 20px 0;
+}
+
+.dark-mode .equal-button {
+    background-color: rgb(255, 110, 94);
+}
+
+.txt-color {
+    color: rgb(120, 154, 255);
+}
+
+.dark-mode .txt-color {
+    color: rgb(255, 110, 94);
+}
+
+button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 20%;
+    font-size: 1.2rem;
+}
+
+.dark-mode button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
